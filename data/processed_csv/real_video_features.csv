@@ -1,0 +1,2 @@
+Mean_KneeAngle_L,Mean_KneeAngle_R,Cadence,Symmetry_Knee,Age,Source_File
+134.36011022709005,123.98666488640602,45.83333333333333,20.304370464103418,7,gait_features_clean.csv
