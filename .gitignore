@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+.venv_gaitly/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Temporary files & logs
+temp_gait_features.csv
+*.tmp
+*.log
+GaitlyAI_Report_*.pdf
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Settings
+.vscode/
+.idea/

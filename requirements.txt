@@ -1,6 +1,35 @@
-opencv-python,
-mediapipe,
-numpy,
-pandas,
-scipy,
-matplotlib
+# ==============================================================================
+# Gaitly AI - Pediatric Gait Analysis System
+# Verified Dependencies & Compatible Stack (Python 3.10.x - 3.12.x on Windows / Linux / macOS)
+# ==============================================================================
+
+# --- Core Scientific & Numerical Stack ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+
+# --- Computer Vision & Pose Estimation ---
+# Note: Use opencv-contrib-python; avoid installing opencv-python simultaneously
+opencv-contrib-python==4.9.0.80
+mediapipe==0.10.14
+protobuf==4.25.3
+
+# --- Machine Learning & Explainable AI (XAI) ---
+scikit-learn==1.4.2
+xgboost==2.0.3
+shap==0.45.1
+joblib==1.4.2
+
+# --- Data Visualization & Plotting ---
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# --- Interactive Web Dashboard ---
+streamlit==1.32.0
+packaging==23.2
+
+# --- Clinical Report Generation (PDF) ---
+reportlab==4.0.9
+
+# --- Interactive Notebook Environment ---
+ipykernel>=6.29.0
